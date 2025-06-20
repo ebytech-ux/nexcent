@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+ display: grid;
+ grid-template-areas:
+ "header header header header header header"
+  "aside aside main main main main"
+  "footer footer footer footer footer footer";
+ 
+}
+
+header{
+    grid-area: header;
+    height: 20vh;
+    border: solid blue;
+
+}
+
+aside{
+    display: grid;
+    grid-area: aside;
+    height: 20vh;
+    border: solid yellow;
+}
+
+main{
+    display: grid;
+    grid-area: main;
+    height: 20vh;
+    border: solid green;
+}
+
+footer{
+    display: grid;
+    grid-area: footer;
+    height: 20vh;
+    border: solid red;
+}
+    </style>
+</head>
+<body>
+    <header>
+        hello header
+    </header>
+    <aside>aside</aside>
+    <main>this is the main</main>
+    <footer>this is footer</footer>
+    
+</body>
+</html>
