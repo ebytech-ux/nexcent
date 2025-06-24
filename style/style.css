@@ -24,7 +24,8 @@ header{
     width: 100%;
     top: 0;
     /* position: sticky; */
-    z-index: 100px; 
+    z-index: 99999; 
+
 }
 
 .header-a{
@@ -67,9 +68,10 @@ header{
     justify-content:space-between;
     align-items: center;
     padding: 0 60px;
+    margin-top: 50px;
 }
 .header-topic>h2{
-    font-size: 75px;
+    font-size: 70px;
 }
 .header-topic>h2>span{
     color: var(--primary-color);
@@ -81,7 +83,9 @@ header{
     border: var(--primary-color);
     border-radius: 5px;
     padding: 12px;
+    margin-top: 2em;
 }
+
 .dott{
     right: 0;
     left: 0;
@@ -93,7 +97,7 @@ header{
 
 .dott h1{
     bottom: 0;
-    margin-top: 80px;
+    margin-top: 170px;
     color: green;
 }
 
@@ -316,7 +320,7 @@ margin-top: 2em;
     background-color: white;
     padding: 8px;
     border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0.1, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
     margin-top: 8px;
     position: relative;
     bottom: 5em;
@@ -329,7 +333,7 @@ margin-top: 2em;
     background-color: white;
     padding: 8px;
     border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
     margin-top: 8px;
     position: relative;
     bottom: 5em;
@@ -341,7 +345,7 @@ margin-top: 2em;
     background-color: white;
     padding: 8px;
     border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    box-shadow: 0 4px 8px rgba(0.1, 0, 0, 0);
     margin-top: 10px;
     position: relative;
     bottom: 5em;
@@ -375,6 +379,10 @@ height: 3em;
     display: flex;
     justify-content: space-around;
     text-align: start;
+    background-color: black;
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 .footer-div-1{
     display: flex;
